@@ -481,7 +481,7 @@
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>196 174 970 555 0 0 1440 877 </string>
+	<string>196 153 970 555 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>176 92 970 555 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
@@ -636,7 +636,7 @@
 				<real>0.98431372549019602</real>
 			</dict>
 			<key>BM Growl</key>
-			<true/>
+			<false/>
 			<key>Background Color</key>
 			<dict>
 				<key>Blue Component</key>
@@ -1110,7 +1110,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<true/>
+			<false/>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1132,7 +1132,7 @@
 			<key>Vertical Spacing</key>
 			<real>1</real>
 			<key>Visual Bell</key>
-			<true/>
+			<false/>
 			<key>Window Type</key>
 			<integer>0</integer>
 			<key>Working Directory</key>
@@ -1201,7 +1201,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-03-22T08:20:52Z</date>
+	<date>2016-03-23T13:30:31Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
@@ -1209,6 +1209,6 @@
 	<key>TabStyle</key>
 	<integer>1</integer>
 	<key>iTerm Version</key>
-	<string>2.9.20160319-nightly</string>
+	<string>2.9.20160323-nightly</string>
 </dict>
 </plist>
