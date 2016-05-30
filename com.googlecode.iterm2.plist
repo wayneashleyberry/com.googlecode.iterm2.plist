@@ -348,6 +348,10 @@
 	<key>Default Bookmark Guid</key>
 	<string>E9C5AB44-22A0-4809-8B05-A43B0E2B6D26</string>
 	<key>DimBackgroundWindows</key>
+	<true/>
+	<key>DimInactiveSplitPanes</key>
+	<true/>
+	<key>DisableFullscreenTransparency</key>
 	<false/>
 	<key>GlobalKeyMap</key>
 	<dict>
@@ -436,12 +440,16 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>HideScrollbar</key>
+	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/Desktop</string>
+	<string>~/github.com/wayneashleyberry/com.googlecode.iterm2.plist</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{712, 448}</string>
+	<string>{1247, 704}</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 521}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -473,17 +481,21 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>709 188 445 77 0 0 1440 877 </string>
+	<string>1364 281 563 77 0 0 2560 1417 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>269 420 606 456 0 0 1440 877 </string>
+	<string>882 948 606 456 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>741 492 400 129 0 0 1440 877 </string>
+	<string>198 768 400 129 0 0 2560 1417 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>410 364 620 392 0 0 1440 877 </string>
+	<string>930 610 700 605 0 0 2560 1417 </string>
+	<key>NSWindow Frame UKCrashReporter</key>
+	<string>247 801 592 584 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>143 176 970 576 0 0 1440 877 </string>
+	<string>558 639 970 687 0 0 2560 1417 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 92 970 555 0 0 1440 877 </string>
+	<string>1105 591 970 555 0 0 2560 1417 </string>
+	<key>NSWindow Frame iTerm Window 2</key>
+	<string>846 389 970 555 0 0 2560 1417 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1119,8 +1131,6 @@
 			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
-			<key>Triggers</key>
-			<array/>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1148,15 +1158,32 @@
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
-	<integer>1</integer>
+	<integer>0</integer>
+	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
+	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>D5243E2E-F1B1-4BCD-9A86-21098A00A629</string>
+	<key>NoSyncLastTipTime</key>
+	<real>457531326.000175</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
-	<key>NoSyncPermissionToShowTip</key>
-	<false/>
+	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
+	<true/>
+	<key>NoSyncTimeOfFirstLaunchForIncompatibilityWarnings</key>
+	<real>485166775.84157801</real>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>477681332.677544</real>
+	<real>464595963.24439597</real>
+	<key>NoSyncTipsDisabled</key>
+	<true/>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>0000</string>
+		<string>0001</string>
+		<string>0002</string>
+		<string>0003</string>
+	</array>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1199,18 +1226,24 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml</string>
+	<string>https://iterm2.com/appcasts/nightly.xml?shard=75</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-04-23T19:15:03Z</date>
+	<date>2016-05-30T04:27:02Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.19465144230769232</real>
 	<key>TabStyle</key>
 	<integer>1</integer>
+	<key>UKCrashReporterLastCrashReportDate</key>
+	<real>1435918976</real>
+	<key>UseBorder</key>
+	<false/>
+	<key>WordCharacters</key>
+	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.9.20160423-nightly</string>
+	<string>2.9.20160527-nightly</string>
 </dict>
 </plist>
