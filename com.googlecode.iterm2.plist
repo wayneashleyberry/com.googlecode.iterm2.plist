@@ -348,11 +348,9 @@
 	<key>Default Bookmark Guid</key>
 	<string>E9C5AB44-22A0-4809-8B05-A43B0E2B6D26</string>
 	<key>DimBackgroundWindows</key>
-	<true/>
-	<key>DimInactiveSplitPanes</key>
-	<true/>
-	<key>DisableFullscreenTransparency</key>
 	<false/>
+	<key>DisableFullscreenTransparency</key>
+	<true/>
 	<key>GlobalKeyMap</key>
 	<dict>
 		<key>0x19-0x60000</key>
@@ -440,16 +438,12 @@
 			<string></string>
 		</dict>
 	</dict>
-	<key>HideScrollbar</key>
-	<false/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/github.com/wayneashleyberry/com.googlecode.iterm2.plist</string>
+	<string>~/Desktop</string>
 	<key>NSNavPanelExpandedSizeForOpenMode</key>
-	<string>{1247, 704}</string>
-	<key>NSNavPanelExpandedSizeForSaveMode</key>
-	<string>{712, 521}</string>
+	<string>{712, 448}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -481,21 +475,17 @@
 		<integer>1</integer>
 	</dict>
 	<key>NSWindow Frame NSFontPanel</key>
-	<string>1364 281 563 77 0 0 2560 1417 </string>
+	<string>709 54 445 77 0 0 1440 877 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>882 948 606 456 0 0 2560 1417 </string>
+	<string>269 420 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>198 768 400 129 0 0 2560 1417 </string>
+	<string>821 653 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
-	<string>930 610 700 605 0 0 2560 1417 </string>
-	<key>NSWindow Frame UKCrashReporter</key>
-	<string>247 801 592 584 0 0 2560 1417 </string>
+	<string>410 364 620 392 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>558 639 970 687 0 0 2560 1417 </string>
+	<string>173 173 970 555 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>1105 591 970 555 0 0 2560 1417 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>846 389 970 555 0 0 2560 1417 </string>
+	<string>176 46 970 579 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1131,6 +1121,8 @@
 			<string>xterm-256color</string>
 			<key>Transparency</key>
 			<real>0.0</real>
+			<key>Triggers</key>
+			<array/>
 			<key>Unlimited Scrollback</key>
 			<false/>
 			<key>Use Bold Font</key>
@@ -1158,32 +1150,21 @@
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt</key>
 	<true/>
 	<key>NoSyncDoNotWarnBeforePastingOneLineEndingInNewlineAtShellPrompt_selection</key>
-	<integer>0</integer>
+	<integer>1</integer>
 	<key>NoSyncHaveWarnedAboutIncompatibleSoftware</key>
 	<true/>
 	<key>NoSyncInstallationId</key>
-	<string>D5243E2E-F1B1-4BCD-9A86-21098A00A629</string>
-	<key>NoSyncLastTipTime</key>
-	<real>457531326.000175</real>
+	<string>F35C2F9C-4392-40CF-B13E-D4D6B0155883</string>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
 	<integer>0</integer>
-	<key>NoSyncSilenceAnnoyingBellAutomatically</key>
-	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
 	<key>NoSyncTimeOfFirstLaunchForIncompatibilityWarnings</key>
-	<real>485166775.84157801</real>
+	<real>485096861.83630902</real>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
-	<real>464595963.24439597</real>
-	<key>NoSyncTipsDisabled</key>
-	<true/>
-	<key>NoSyncTipsToNotShow</key>
-	<array>
-		<string>0000</string>
-		<string>0001</string>
-		<string>0002</string>
-		<string>0003</string>
-	</array>
+	<real>477681332.677544</real>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1222,28 +1203,26 @@
 	<key>PromptOnQuit</key>
 	<false/>
 	<key>SUEnableAutomaticChecks</key>
-	<true/>
+	<false/>
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml?shard=75</string>
+	<string>https://iterm2.com/appcasts/nightly.xml?shard=26</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-05-30T04:27:02Z</date>
+	<date>2016-06-05T17:08:28Z</date>
 	<key>SUSendProfileInfo</key>
+	<false/>
+	<key>Secure Input</key>
 	<false/>
 	<key>SplitPaneDimmingAmount</key>
 	<real>0.19465144230769232</real>
 	<key>TabStyle</key>
 	<integer>1</integer>
-	<key>UKCrashReporterLastCrashReportDate</key>
-	<real>1435918976</real>
 	<key>UseBorder</key>
 	<false/>
-	<key>WordCharacters</key>
-	<string>/-+\~_.</string>
 	<key>iTerm Version</key>
-	<string>2.9.20160527-nightly</string>
+	<string>3.0.20160605-nightly</string>
 </dict>
 </plist>
