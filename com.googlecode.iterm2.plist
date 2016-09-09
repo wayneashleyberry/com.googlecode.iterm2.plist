@@ -438,6 +438,8 @@
 			<string></string>
 		</dict>
 	</dict>
+	<key>HotkeyMigratedFromSingleToMulti</key>
+	<true/>
 	<key>LoadPrefsFromCustomFolder</key>
 	<true/>
 	<key>NSNavLastRootDirectory</key>
@@ -479,13 +481,17 @@
 	<key>NSWindow Frame Preferences</key>
 	<string>269 420 606 456 0 0 1440 877 </string>
 	<key>NSWindow Frame SUStatusFrame</key>
-	<string>821 653 400 129 0 0 1440 877 </string>
+	<string>520 562 400 129 0 0 1440 877 </string>
 	<key>NSWindow Frame SUUpdateAlert</key>
 	<string>410 364 620 392 0 0 1440 877 </string>
+	<key>NSWindow Frame SessionsPreferences</key>
+	<string>269 126 606 469 0 0 1440 877 </string>
+	<key>NSWindow Frame SharedPreferences</key>
+	<string>450 390 796 473 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>173 173 970 555 0 0 1440 877 </string>
+	<string>210 118 970 555 0 0 1440 877 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>176 46 970 579 0 0 1440 877 </string>
+	<string>176 68 970 555 0 0 1440 877 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1112,7 +1118,7 @@
 			<key>Shortcut</key>
 			<string></string>
 			<key>Silence Bell</key>
-			<false/>
+			<true/>
 			<key>Sync Title</key>
 			<false/>
 			<key>Tags</key>
@@ -1155,6 +1161,8 @@
 	<true/>
 	<key>NoSyncInstallationId</key>
 	<string>F35C2F9C-4392-40CF-B13E-D4D6B0155883</string>
+	<key>NoSyncLastTipTime</key>
+	<real>488450025.149975</real>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
 	<true/>
 	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
@@ -1165,6 +1173,10 @@
 	<real>485096861.83630902</real>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>477681332.677544</real>
+	<key>NoSyncTipsToNotShow</key>
+	<array>
+		<string>000</string>
+	</array>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -1207,11 +1219,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/nightly.xml?shard=26</string>
+	<string>https://iterm2.com/appcasts/final.xml?shard=26</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2016-06-05T17:08:28Z</date>
+	<date>2016-08-24T09:54:59Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>Secure Input</key>
@@ -1223,6 +1235,6 @@
 	<key>UseBorder</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>3.0.20160605-nightly</string>
+	<string>3.0.20160808-nightly</string>
 </dict>
 </plist>
